@@ -1,0 +1,6 @@
+J:\SteamLibrary\steamapps\common\RimWorld\Mods\QualityOfBuilding\1.5\Assemblies\QualityOfBuilding.dll
+J:\SteamLibrary\steamapps\common\RimWorld\Mods\QualityOfBuilding\1.5\Assemblies\QualityOfBuilding.pdb
+J:\SteamLibrary\steamapps\common\RimWorld\Mods\QualityOfBuilding\Source\QualityOfBuilding\obj\Debug\QualityOfBuilding.csproj.AssemblyReference.cache
+J:\SteamLibrary\steamapps\common\RimWorld\Mods\QualityOfBuilding\Source\QualityOfBuilding\obj\Debug\QualityOfBuilding.csproj.CoreCompileInputs.cache
+J:\SteamLibrary\steamapps\common\RimWorld\Mods\QualityOfBuilding\Source\QualityOfBuilding\obj\Debug\QualityOfBuilding.dll
+J:\SteamLibrary\steamapps\common\RimWorld\Mods\QualityOfBuilding\Source\QualityOfBuilding\obj\Debug\QualityOfBuilding.pdb

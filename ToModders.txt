@@ -1,0 +1,32 @@
+if the quality texture doesn't exist, it will use texture that close to normal quality.
+if the normal quality texture still doesn't exist, it will use default(original) texture.
+
+so, the building from other mods that doesn't have quality texture is compatible.
+
+
+
+
+naming rule:
+
+[filename]_Quality0 => Awful or Poor
+[filename]_Quality1 => Poor 
+[filename]_Quality2 => Normal or Good
+[filename]_Quality3 => Good
+[filename]_Quality4 => Excellent or Masterwork or Legendary
+[filename]_Quality5 => Masterwork
+[filename]_Quality6 => Legendary
+
+example)
+original: Textures/Things/Building/Furniture/DiningChair.png
+modified: Textures/Things/Building/Furniture/DiningChair_Quality0.png
+
+for Graphic_Random(Graphic_Multy) class like sculptures: 
+Quality_[foldername]/[filename]_Quality0
+Quality_[foldername]/[filename]_Quality1
+...
+
+example)
+original: Textures/Things/Building/Art/SculptureSmall/SculptureSmallAbstractA.png
+modified: Textures/Things/Building/Art/Quality_SculptureSmall/SculptureSmallAbstractA_Quality0.png
+
+
