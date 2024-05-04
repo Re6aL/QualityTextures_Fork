@@ -2,6 +2,7 @@
 <ModMetaData>
   <name>Quality Of Building</name>
   <author>sdknm2</author>
+  <modVersion>24.3.5</modVersion>
   <url></url>
   <supportedVersions>
 	<li>1.1</li>
@@ -10,13 +11,21 @@
 	<li>1.4</li>
 	<li>1.5</li>
   </supportedVersions>
-  <packageId>sdknm2.QualityOfBuilding</packageId>
+  <packageId>sdknm2.QualityOfBuilding.fork</packageId>
   <modIconPath IgnoreIfNoMatchingField="True">UI/QualityOfBuildingLogo</modIconPath>
   <description>
-Different texture for different Quality to buildings
+Original: Different texture for different Quality to buildings
+Forked by Яe6al
+Fork author: Quality dependant textures make diversity without bloating and breaking balance.
+All those "Weapons" mods ARE duplicating items already present, actually breaking the game balance.
+This mod adds original textures, and Textures from other mods to make visual recognition of objects instant, not bloating and not adding any similar items.
+Now you dont need a mod which adds 5 versions of the same gun, but one gun will look as different based on its quality.
   </description>
   	<loadAfter>
 		<li>brrainz.harmony</li>
 		<li>Ludeon.RimWorld</li>
 	</loadAfter>
+  <incompatibleWith>
+    <li>sdknm2.QualityOfBuilding</li>
+  </incompatibleWith>
 </ModMetaData>
