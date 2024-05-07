@@ -2,7 +2,7 @@
 <ModMetaData>
   <name>Quality Of Building</name>
   <author>sdknm2</author>
-  <modVersion>24.3.5</modVersion>
+  <modVersion></modVersion>
   <url></url>
   <supportedVersions>
 	<li>1.1</li>
@@ -15,11 +15,13 @@
   <modIconPath IgnoreIfNoMatchingField="True">UI/QualityOfBuildingLogo</modIconPath>
   <description>
 Original: Different texture for different Quality to buildings
-Forked by Яe6al
-Fork author: Quality dependant textures make diversity without bloating and breaking balance.
-All those "Weapons" mods ARE duplicating items already present, actually breaking the game balance.
-This mod adds original textures, and Textures from other mods to make visual recognition of objects instant, not bloating and not adding any similar items.
-Now you dont need a mod which adds 5 versions of the same gun, but one gun will look as different based on its quality.
+
+Forked by Яe6al: Added a lot of textures from other mods (which I do not use) to alter the existing items.
+Main focus are WEAPONS and APPAREL. Buildings mostly upscaled. Weapons and clothes altered by similar textures from other mods (which I do not use).
+
+Quality dependant textures = diversity without bloat and breaking balance.
+
+Now you dont need a mod which adds 5 versions of the same gun, but one gun will look different based on its quality.
   </description>
   	<loadAfter>
 		<li>brrainz.harmony</li>
