@@ -1345,11 +1345,11 @@ public class QualityOfBuildingThingPatch
 
     }
 
-    //1.3
+    //1.3 ~ 1.4
     [HarmonyPatch(typeof(ApparelGraphicRecordGetter), "TryGetGraphicApparel")]
     public class WornApparelGraphicPatch
     {
-        public static void Postfix(Apparel apparel, BodyTypeDef bodyType, ref ApparelGraphicRecord rec, ref bool __result)
+        public static void OldPostfix(Apparel apparel, BodyTypeDef bodyType, ref ApparelGraphicRecord rec, ref bool __result)
         {
             if (!__result)
                 return;
@@ -1362,6 +1362,48 @@ public class QualityOfBuildingThingPatch
 
             rec.graphic = QualityOfBuildingUtility.GetQualityGraphicAndCache(apparel, rec.graphic,false,false,true,false);
 
+        }
+    }
+
+    //1.5 before update graphicsFor
+    [StaticConstructorOnStartup]
+    [HarmonyPatch(typeof(PawnRenderNode_Apparel), "EnsureMaterialsInitialized")]
+    public static class PawnRenderNodeApparelPatch
+    {
+        public static void OldPostfix(PawnRenderNode_Apparel __instance, ref Graphic ___graphic)
+        {
+            if (!QualityOfBuildingSetting.ApplyToWornApparels)
+                return;
+
+            if (!QualityOfBuildingSetting.ApplyToWornApparels)
+                return;
+
+            ___graphic = QualityOfBuildingUtility.GetQualityGraphicAndCache(__instance.apparel, ___graphic, false, false, true, false);
+        }
+    }
+
+    //1.5 after update graphicsFor
+    [StaticConstructorOnStartup]
+    [HarmonyPatch(typeof(PawnRenderNode_Apparel), "GraphicsFor")]
+    public static class PawnRenderNodeApparelPatch2
+    {
+        public static IEnumerable<Graphic> Postfix(IEnumerable<Graphic> __result, Pawn pawn, PawnRenderNode_Apparel __instance)
+        {
+            if (!QualityOfBuildingSetting.ApplyToWornApparels)
+            {
+                foreach (Graphic graphic in __result)
+                {
+                    yield return graphic;
+                }
+                yield break;
+            }
+            
+            foreach(Graphic graphic in __result)
+            {
+                yield return QualityOfBuildingUtility.GetQualityGraphicAndCache(__instance.apparel, graphic, false, false, true, false);
+            }
+            
+            
         }
     }
 

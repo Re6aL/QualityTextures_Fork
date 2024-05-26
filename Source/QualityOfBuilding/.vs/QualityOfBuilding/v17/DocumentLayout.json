@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "J:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\QualityOfBuilding\\Source\\QualityOfBuilding\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E703CE13-25A3-4D5D-985C-AA947B974F6E}|QualityOfBuilding.csproj|j:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\qualityofbuilding\\source\\qualityofbuilding\\qualityofbuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E703CE13-25A3-4D5D-985C-AA947B974F6E}|QualityOfBuilding.csproj|solutionrelative:qualityofbuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QualityOfBuilding.cs",
+              "DocumentMoniker": "J:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\QualityOfBuilding\\Source\\QualityOfBuilding\\QualityOfBuilding.cs",
+              "RelativeDocumentMoniker": "QualityOfBuilding.cs",
+              "ToolTip": "J:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\QualityOfBuilding\\Source\\QualityOfBuilding\\QualityOfBuilding.cs",
+              "RelativeToolTip": "QualityOfBuilding.cs",
+              "ViewState": "AQIAAF0FAAAAAAAAAAAAAG0FAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T22:43:15.146Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
