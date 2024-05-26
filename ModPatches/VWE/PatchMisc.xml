@@ -3,13 +3,6 @@
 <Patch>
 	
 	<Operation Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[defName = "CE_Apparel_TribalBackpack"]/graphicData</xpath>
-			<value>
-				<shaderType>CutoutComplex</shaderType>
-			</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
 			<xpath>Defs/ThingDef[defName = "VWE_MeleeWeapon_CombatKnife"]/graphicData</xpath>
 			<value>
 				<shaderType>CutoutComplex</shaderType>

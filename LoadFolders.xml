@@ -19,5 +19,7 @@
 	<v1.5>
 		<li>/</li>
 		<li>1.5</li>
+		<li IfModActive="VanillaExpanded.VWE">ModPatches/VWE</li>
+		<li IfModActive="CETeam.CombatExtended">ModPatches/CE</li>
 	</v1.5>
 </loadFolders>
