@@ -8,5 +8,11 @@
 				<shaderType>CutoutComplex</shaderType>
 			</value>
 	</Operation>
+	<Operation Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "CE_Apparel_TribalBackpack"]/apparel</xpath>
+			<value>
+				<useWornGraphicMask>true</useWornGraphicMask>
+			</value>
+	</Operation>
 		
 </Patch>
